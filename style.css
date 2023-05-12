@@ -3,6 +3,12 @@ body {
 	background-color: #731fff;
 } 
 
+a {
+  color: #ff00d0;
+}
+a:active {
+    color: #ff0000;
+}
 
 h1 {
 	font-size: 100px;
