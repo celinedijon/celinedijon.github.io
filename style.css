@@ -6,8 +6,9 @@ body {
 a {
   color: #ff00d0;
 }
-a:active {
-    color: #ff0000;
+
+a:hover {
+  color: #ff0000;
 }
 
 h1 {
