@@ -8,6 +8,17 @@ h1 {
 	font-size: 100px;
 	text-align: justify-all;
 	color: #aaffd0;
+	 @font-face {
+  font-family: 'ChiKareGo2';
+  src: url('/fonts/ChiKareGo2.woff2') format('woff2'),
+       url('/fonts/ChiKareGo2.woff') format('woff'),
+       url('/fonts/ChiKareGo2.ttf') format('truetype'),
+       url('/fonts/ChiKareGo2.otf') format('opentype');
+    }
+
+    * {
+   font-family: ChiKareGo2;
+    }
 }
 
 .popup {
